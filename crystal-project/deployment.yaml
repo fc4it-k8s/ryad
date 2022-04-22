@@ -6,7 +6,7 @@ metadata:
     app: ecsdemo-crystal
   # namespace: crystal-project
 spec:
-  replicas: 5
+  replicas: 10
   selector:
     matchLabels:
       app: ecsdemo-crystal
@@ -36,7 +36,7 @@ metadata:
     app: ecsdemo-frontend
   # namespace: crystal-project
 spec:
-  replicas: 5
+  replicas: 10
   selector:
     matchLabels:
       app: ecsdemo-frontend
@@ -71,7 +71,7 @@ metadata:
     app: ecsdemo-nodejs
   # namespace: crystal-project
 spec:
-  replicas: 5
+  replicas: 10
   selector:
     matchLabels:
       app: ecsdemo-nodejs
